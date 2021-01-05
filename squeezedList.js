@@ -1,3 +1,9 @@
+/* 
+  Given a list of integers nums, squeeze from both the left and the right of nums until there is one remaining element. 
+  Return the states at each step.
+
+  Your code took 6 milliseconds — faster than 84.38% in JavaScript
+*/
 class Solution {
   solve(nums) {
     let solArr = [[...nums]]
